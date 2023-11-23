@@ -1,0 +1,19 @@
+
+.a{
+    height: 500px;
+    font-size: 2rem;
+}
+#b{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    transition: 1s ease-in;
+    transform: skew(30deg);
+    box-shadow: 2px 3px 8px black
+}
+#b:hover{
+    border-radius: 50%;
+    background-color: yellow;
+    margin: auto 50px;
+    transform: rotate(35deg);
+}

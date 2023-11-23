@@ -1,0 +1,17 @@
+.face{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: orange;
+
+}
+.eye{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(17, 16, 16);
+    display: inline-flex;
+    margin: 50px;
+    top: 100px;
+
+}

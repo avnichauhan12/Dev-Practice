@@ -1,0 +1,13 @@
+.myid {
+color: pink;
+}
+a{
+    background-color: blueviolet;
+}
+button:hover{
+    background-color: blue;
+}
+button:active{
+    background-color: rgb(193, 131, 131);
+    font-weight: bold;
+}
