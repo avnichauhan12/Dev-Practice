@@ -1,9 +1,10 @@
 .face{
     height: 400px;
     width: 400px;
-    border-radius: 50%;
     background-color: orange;
-
+    position: absolute;
+   border-radius: 50%;
+    
 }
 .eye{
     height: 100px;
@@ -11,7 +12,29 @@
     border-radius: 50%;
     background-color: rgb(17, 16, 16);
     display: inline-flex;
-    margin: 50px;
-    top: 100px;
+    margin: 10px;
+    margin-top: 60px;
+    margin-left: 60px;
 
+}
+.mouth{
+    height: 70px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    left: 150px;
+    top: 250px;
+}
+.mouth:hover{
+    border-bottom-right-radius: 60%;
+    border-bottom-left-radius: 60%;
+}
+.eyeboll{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(248, 241, 241);
+    position: relative;
+    left: 40px;
+    top: 35px;
+    border-radius: 50%
 }
