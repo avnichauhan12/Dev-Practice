@@ -1,0 +1,21 @@
+.container{
+   
+    height: 700px;
+    width: 1000px;
+    background-color: rgb(19, 22, 22);
+    display: grid;
+    grid-template-rows: 200px 200px 200px 100px 100px 100px 100px;
+    grid-template-columns: 300px 300px 300px;
+    row-gap: 2px;
+    column-gap: 5px;
+}
+.item{
+    width: 300px;
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+}
+.a{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
