@@ -1,0 +1,19 @@
+.A{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+   
+}
+.a{
+    height: 20px;
+    width: 100px;
+    background-color: yellow;
+    flex-basis: 40px;
+}
+.b{
+    height: 20px;
+    width: 100px;
+    background-color: red;
+}

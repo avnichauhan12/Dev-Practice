@@ -1,0 +1,12 @@
+.main_box{
+    height: 100%;
+    width: 200px;
+    background-color: rgb(25, 17, 17,0.5);
+}
+.btn_one{
+    height: 20px;
+    width: 10px;
+}
+.logo a{
+    width: 30px;
+}
